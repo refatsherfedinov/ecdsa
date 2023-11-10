@@ -40,7 +40,7 @@ function Transfer({ address, setBalance }) {
       <label>
         Recipient
         <input
-          placeholder="Type an address, for example: 0x2"
+          placeholder="0x2"
           value={recipient}
           onChange={setValue(setRecipient)}
         ></input>
